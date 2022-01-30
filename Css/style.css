@@ -25,6 +25,7 @@ header {
   height: 10vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: justify;
 }
 
@@ -33,7 +34,6 @@ header h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
-  padding-top: 20px;
   color: white;
   height: auto;
 }
@@ -181,14 +181,16 @@ section {
 }
 
 footer {
+  display: flex;
   height: 7vh;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 20px;
   background: #011c2650;
   text-align: center;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .copyright {
