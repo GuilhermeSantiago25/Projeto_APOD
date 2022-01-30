@@ -21,6 +21,7 @@ body {
 header {
   background: #011c2650;
   width: 100%;
+  min-height: auto;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -38,7 +39,7 @@ header h1 {
 }
 
 header p {
-  padding-top: 5px;
+  padding-top: 5px 0;
   text-align: center;
   color: white;
 }
@@ -188,7 +189,6 @@ footer {
   background: #011c2650;
   text-align: center;
   margin: 0 auto;
-  padding-top: 25px;
 }
 
 footer .copyright {
