@@ -53,7 +53,7 @@ function buscarData() {
             if (parametro.copyright !== undefined) {
                 $('#copyright').text(`Image Credit & Copyright: ${parametro.copyright}`);
             } else {
-                $('#copyright').text(`Copyright: Unknow`);
+                $('#copyright').text(`Copyright: Unknown`);
             }
             //Caso a pesquisa retorne uma imagem exibe a imagem e caso seja video ele exibe o vídeo;
 
